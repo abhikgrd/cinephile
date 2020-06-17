@@ -1,3 +1,43 @@
+.titleBar{
+  background-color: #000;
+  display: block;
+  height:100px;
+  color:#fff;
+  padding-right:500;
+
+
+}
+.websiteBody{
+
+  
+  position: absolute;
+  right: 500px;
+  width: 500px;
+  
+  padding: 10px;
+
+}
+
+.tableInfo{
+  background-image: url(sample5.jpg);
+display:block;
+height: 1000px;
+padding-right: 10;
+align-items: center;
+color:#fff;
+
+}
+.body{
+  background-image: url(sample5.jpg);
+}
+
+.upperBody{
+  background-color: #000;
+
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +76,13 @@
     transform: rotate(360deg);
   }
 }
+
+.tableInfo{
+
+  table-layout: auto;
+  width: 180px;
+
+}
+
+
+
